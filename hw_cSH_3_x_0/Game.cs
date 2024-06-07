@@ -6,7 +6,6 @@ namespace hw_cSH_3_x_0;
 public static class Game
 {
     private static uint _step;
-    private static bool _isWin;
     private static char[] _board;
     private static List<int> _availableСells;
     private static HashSet<Tuple<int, int, int>> _combiWin;
@@ -27,6 +26,7 @@ public static class Game
         Console.Write(_board[i * 3 + dopNum]);
         Console.ResetColor();
     }
+    
     private static void DrawBoard()
     {
         if (_step > 0)
