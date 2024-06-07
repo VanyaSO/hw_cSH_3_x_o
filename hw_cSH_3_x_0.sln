@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw_cSH_3_x_0", "hw_cSH_3_x_0\hw_cSH_3_x_0.csproj", "{FCF24FE8-EC51-455C-99A8-FED0DAD37938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF24FE8-EC51-455C-99A8-FED0DAD37938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF24FE8-EC51-455C-99A8-FED0DAD37938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF24FE8-EC51-455C-99A8-FED0DAD37938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF24FE8-EC51-455C-99A8-FED0DAD37938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
