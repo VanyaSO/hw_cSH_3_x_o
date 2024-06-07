@@ -12,3 +12,4 @@
 /Users/ivanushachov/Desktop/hw_cSH_3_x_0/hw_cSH_3_x_0/obj/Debug/net8.0/hw_cSH_3_x_0.pdb
 /Users/ivanushachov/Desktop/hw_cSH_3_x_0/hw_cSH_3_x_0/obj/Debug/net8.0/hw_cSH_3_x_0.genruntimeconfig.cache
 /Users/ivanushachov/Desktop/hw_cSH_3_x_0/hw_cSH_3_x_0/obj/Debug/net8.0/ref/hw_cSH_3_x_0.dll
+/Users/ivanushachov/Desktop/hw_cSH_3_x_0/hw_cSH_3_x_0/obj/Debug/net8.0/hw_cSH_3_x_0.sourcelink.json

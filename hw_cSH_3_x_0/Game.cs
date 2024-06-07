@@ -7,9 +7,9 @@ public static class Game
 {
     private static uint _step;
     private static bool _isWin;
-    private static char[] _board = new [] {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
-    private static List<int> _availableСells = new List<int> {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    private static HashSet<Tuple<int, int, int>> CombiWin;
+    private static char[] _board;
+    private static List<int> _availableСells;
+    private static HashSet<Tuple<int, int, int>> _combiWin;
     private static char _pcSymbol;
     private static char _playerSymbol;
 
@@ -101,7 +101,7 @@ public static class Game
 
     private static bool CheckWin()
     {
-        foreach (var combo in CombiWin)
+        foreach (var combo in _combiWin)
         {
             if (_board[combo.Item1-1] == _board[combo.Item2-1] && _board[combo.Item2-1] == _board[combo.Item3-1])
             {
@@ -136,8 +136,10 @@ public static class Game
     
     public static void StartGame()
     {
+        _board = new[] { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+        _availableСells = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         // комбинации для победы
-        CombiWin = new HashSet<Tuple<int, int, int>>()
+        _combiWin = new HashSet<Tuple<int, int, int>>()
         {
             new Tuple<int, int, int>(1, 2, 3),
             new Tuple<int, int, int>(4, 5, 6),
